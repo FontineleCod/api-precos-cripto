@@ -1,20 +1,33 @@
-# API de Preços de Cripto 🚀
+# 🪙 Monitor de Preços - Cripto
 
-Essa aplicação foi criada do zero com Node.js para monitorar o preço de criptoativos como Bitcoin, Ethereum e outros que eu acompanho.
+Projeto simples em Node.js que exibe em tempo real os preços de algumas criptomoedas usando a API da CoinGecko.
 
-### 🔧 Tecnologias utilizadas
+## 💻 Tecnologias
 
 - Node.js
-- Express
 - Axios
-- CORS
-- Dotenv
-- Mongoose (para persistência futura)
+- Chalk
+- Readline
 
-### 📦 Como rodar localmente
+## 📈 Moedas monitoradas
+
+- Bitcoin (BTC)
+- Ethereum (ETH)
+- Solana (SOL)
+- Tron (TRX)
+- Hedera (HBAR)
+
+## 🚀 Como usar
 
 ```bash
-git clone https://github.com/FontineleCod/api-precos-cripto.git
+# Clone o repositório
+git clone https://github.com/FontineleCod/api-precos-cripto
+
+# Entre na pasta
 cd api-precos-cripto
+
+# Instale as dependências
 npm install
+
+# Execute o monitor
 node index.js
